@@ -1,0 +1,29 @@
+*, a {
+    font-family: "Roboto Flex";
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 55, 55);
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 600px;
+}
+.btn {
+    background-color: cadetblue;
+    box-shadow: 7px 7px black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+.nav-title {
+    margin-left: 17px;
+}
